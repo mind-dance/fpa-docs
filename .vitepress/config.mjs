@@ -13,12 +13,33 @@ export default defineConfig({
 
     sidebar: {
       "/": {
-        text: 'Examples',
+        text: '项目',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '反形式主义', link: '/anti-formalism/' },
+          { text: 'English 42', link: '/en42' },
+          { text: '食谱', link: '/recipes' }
         ]
       },
+      'anti-formalism': [
+        {
+          text: '反形式主义',
+          items: [
+            { text: '目录', link: '/anti-formalism/' },
+            { text: '手写模拟', link: '/anti-formalism/hand-write' },
+            { text: '路由器校园网验证', link: '/anti-formalism/openwrt-ruijie' },
+          ]
+        }
+
+      ],
+      '/en42/': [
+        {
+          text: 'English 42',
+          items: [
+            { text: '目录', link: '/en42/' },
+            { text: 'L0', link: '/en42/l0' },
+          ]
+        }
+      ],
       '/recipes/': [
         {
           text: '食谱',

@@ -11,8 +11,8 @@ hero:
       text: 项目列表
       link: /projects
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: README
+      link: /readme
 
 features:
   - title: Feature A
