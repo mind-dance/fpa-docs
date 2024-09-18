@@ -1,7 +1,7 @@
 ﻿# fpa-docs
-薯条港文档中心，是寄存薯条港大多数文档与手册的地方。
-
-如果没有特别说明，所有文章均以cc4.0-by-sa协议授权。
+薯条港文档中心，是寄存薯条港大多数文档与手册的地方。  
+[仓库地址](https://github.com/mind-dance/fpa-docs)  
+[https协议git地址](https://github.com/mind-dance/fpa-docs.git)
 
 ## 启动
 将vitepress添加到开发环境。
