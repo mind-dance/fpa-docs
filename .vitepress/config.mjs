@@ -7,19 +7,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '项目', link: '/projects' }
     ],
 
     sidebar: {
-      "/": {
-        text: '项目',
-        items: [
-          { text: '反形式主义', link: '/anti-formalism/' },
-          { text: 'English 42', link: '/en42' },
-          { text: '食谱', link: '/recipes' }
-        ]
-      },
       'anti-formalism': [
         {
           text: '反形式主义',
@@ -29,7 +21,6 @@ export default defineConfig({
             { text: '路由器校园网验证', link: '/anti-formalism/openwrt-ruijie' },
           ]
         }
-
       ],
       '/en42/': [
         {
@@ -37,6 +28,15 @@ export default defineConfig({
           items: [
             { text: '目录', link: '/en42/' },
             { text: 'L0', link: '/en42/l0' },
+          ]
+        }
+      ],
+      '/fpa-docs/': [
+        {
+          text: '维护手册',
+          items: [
+            { text: '目录', link: '/fpa-docs/' },
+            { text: 'storj托管', link: '/fpa-docs/storj' }
           ]
         }
       ],
